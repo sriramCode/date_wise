@@ -1,0 +1,307 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 50px;
+    position: relative;
+    background-color: #222222;
+}
+.headerLogo{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 70px;
+    height: 30px;
+    width: 30px;
+    background-image: url("../images/headerLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.logoText{
+    margin-top: 14px;
+    float: left;
+    position: relative;
+    color: #9D9D9D;
+    font-size: 18px;
+    padding-right: 7px;
+}
+
+ul {
+    position: relative;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    font-size: 15px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #9D9D9D;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+.search{
+    float: left;
+    margin-top: 8px;
+    margin-left: 470px;
+    position: relative;
+    height: 32px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+}
+.searchButton{
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    text-align: center;
+    position: relative;
+    height: 32px;
+    padding-bottom: 4px;
+    width: 70px;
+    background-color: white;
+    border-radius: 5px;
+}
+.banner{
+    height:300px;
+    background-color: #9ACD32;
+    position: relative;
+}
+.bannerImage{
+    margin-top: 70px;
+    position: relative;
+    margin-left: 50px;
+    float: left;
+    background-image: url("../images/bannerImage.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
+.bannerTitle{
+    position: relative;
+    float: left;
+    font-size: 65px;
+    margin-top: 75px;
+    color: #ADFF2F;
+}
+.bannerContent{
+    clear: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 60px;
+    color: #ADFF2F;
+    font-size: 20px;
+    
+}
+.bannerButton{
+    margin-top: 20px;
+    position: relative;
+    height: 25px;
+    width: 105px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    margin-left: 60px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+}
+.content{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+.mainTitle{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+    font-size: 37px;
+    float: left;
+}
+.subTitle{
+    position: absolute;
+    margin-top:93px;
+    margin-left: 470px;
+    font-size: 23px;
+    float: left;
+    color: #9D9D9D;
+}
+hr {
+    position: absolute;
+    opacity: 0.5;
+    left: 70px;
+    top:120px;
+    right: 70px;
+    height: 10px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.contentFirst{
+    position: absolute;
+    margin-top: 170px;
+    left: 70px;
+    right: 70px;
+    color: #9D9D9D;
+    font-size: 14px;   
+}
+.imageBox{
+    position: relative;
+    top:200px;;
+    left: 60px;
+    width: 1150px;
+    background-color:white;
+    height: 330px;
+}
+.contentImage{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 31%;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url("../images/contentImage.png");
+    background-size: contain;
+}
+.contentDescription{
+    position: relative;
+    height: 165px;
+    top:200px;
+    left: 60px;
+    width: 1150px;
+   
+}
+.contentDescriptionBox{
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 165px;
+    width: 30.6%;
+   
+}
+.contentDescriptionHeading{
+    font-size: 25px;
+    color: #337AB7;
+}
+.contentDescriptionDetails{
+    font-size: 14px;
+    color: #9D9D9D;
+    margin-top: 10px;
+    
+}
+.baseContent{
+    position: relative;
+    height:350px;
+    top:200px;
+    
+    background-color: #DAA520;
+}
+.baseContentBox{
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 300px;
+    width: 30%;
+}
+.baseContentImage1{
+    position: relative;
+    margin-left: 40px;
+    float: left;
+    background-image: url(../images/contentFirst.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    height:40px;
+    width: 40px;
+}
+.baseContentImage2{
+    position: relative;
+    margin-left: 40px;
+    float: left;
+    background-image: url(../images/contentSecond.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 70px;
+    height:40px;
+    width: 40px;
+}
+.baseContentImage3{
+    position: relative;
+    margin-left: 40px;
+    float: left;
+    background-image: url(../images/contentThird.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 70px;
+    height:40px;
+    width: 40px;
+}
+.baseContentHeading{
+    position: relative;
+    float: left;
+    font-size: 25px;
+    margin-top: 77px;
+}
+.baseContentDetails{
+    clear: left;
+    padding-left: 40px;
+    padding-right: 30px;
+    font-size: 14px;
+    position: relative;
+    padding-top: 15px;
+}
+footer{
+    position: relative;
+    height: 120px;
+    top: 200px;
+}
+.footerContent{
+    position: relative;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #337AB7;
+}
+.copyright{
+    padding-top: 15px;
+    clear: left;
+    font-size: 15px;
+    color:#9D9D9D;
+    margin-left: 65px;
+}
+.footerLine{
+    margin-top: 27px;
+    float: left;
+    position: relative;
+    height: 15px;
+    width: 1px;
+    background-color: #9D9D9D;
+}

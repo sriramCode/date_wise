@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contentOne{
+    top: 100px;
+    background-color: burlywood;
+}
+.contentTwo{
+    background-color: darkgrey;
+}
+.banner{
+    float: left;
+    display: flex;
+    height: 600px;
+    width: 300px;
+}
+.banner div{
+    flex: 1;  
+}
+.bannerFloat{
+    float: left;
+}

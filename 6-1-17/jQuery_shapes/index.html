@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			jQuery
+		</title>
+		<link href="css/main.css">
+		<script src="script/jquery.min.js">
+		</script>
+		<script src="script/SSShapes.js">
+		</script>
+		<script src="script/script.js" type="text/javascript">
+		</script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="col-md-4">
+				<div class="form-group">
+					<label for="shape"></label>
+					<h2>
+						<label for="shape">Select Shape</label>
+					</h2><select class="form-control" id="shape" onchange="select(value);">
+						<option selected="selected" value="select">
+							Select
+						</option>
+						<option value="circle">
+							Circle
+						</option>
+						<option value="rectangle">
+							Rectangle
+						</option>
+						<option value="square">
+							Square
+						</option>
+					</select><br>
+					<div class="circleDetails">
+						<div class="form-group">
+							<input class="form-control" id="radius" placeholder="Enter the radius..." type="text" value=""><br>
+							<button class="btn btn-primary" onclick="createCircle(document.getElementById('radius').value)" type="button">Create</button>
+						</div>
+					</div>
+					<div class="rectangleDetails">
+						<div class="form-group">
+							<input class="form-control" id="length" name="length" placeholder="Enter the length..." type="text" value=""><br>
+							<input class="form-control" id="breadth" name="breadth" placeholder="Enter the breadth..." type="text" value=""><br>
+							<button class="btn btn-primary" id="rectId" onclick="createRectangle(document.getElementById('length').value,document.getElementById('breadth').value)" type="button">Create</button>
+						</div>
+					</div>
+					<div class="squareDetails">
+						<div class="form-group">
+							<input class="form-control" id="side" name="side" placeholder="Enter the side value..." type="text" value=""><br>
+							<button class="btn btn-primary" onclick="createSquare(document.getElementById('side').value)" type="button">Create</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<ul id="unorderedId"></ul>
+			</div>
+		</div>
+	</body>
+</html>

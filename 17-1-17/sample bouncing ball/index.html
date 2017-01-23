@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+
+<body>
+    <div ng-app="balls" ng-controller="bounce">
+        <div class="balls">
+            <div ng-repeat="ball in balls" ball-position="ball"></div>
+        </div>
+        <div>
+            <div class="fps-bar">
+                <div class="fps" ng-style="{width:fps*4 + 'px'}"></div>
+            </div>
+        </div>
+        {{fps | number:1}} fps. ({{balls.length}} balls)
+        <br>
+        <a href ng-click="changeCount(1)">+1</a>
+        <a href ng-click="changeCount(10)">+10</a>
+        <a href ng-click="changeCount(100)">+100</a>
+        <br>
+        <a href ng-click="changeCount(-1)">-1</a>
+        <a href ng-click="changeCount(-10)">-10</a>
+        <a href ng-click="changeCount(-100)">-100</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

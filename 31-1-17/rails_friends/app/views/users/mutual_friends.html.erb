@@ -1,0 +1,5 @@
+<h1>Users#mutual friends</h1>
+<p>Mutual friends of users <%= @first_user.name %> and <%= @second_user.name %> are</p>
+<% @mutual_friends.each do |n| %>
+<%= n.name %>
+<% end %>

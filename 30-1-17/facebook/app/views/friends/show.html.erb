@@ -1,0 +1,13 @@
+<h4>Friend of first user</h4>
+<% @first_friend.each do |first| %>
+<p><%= first.name %></p>
+<% end %>
+<h4>Friend of second user</h4>
+<% @second_friend.each do |second| %>
+<p><%= second.name %></p>
+<% end %>
+<h4>Mutual friends</h4>
+
+ <%= @mutual %>  
+
+<%= @test.column_names %>

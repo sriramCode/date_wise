@@ -1,0 +1,5 @@
+<h4>Friends</h4>
+<p>Friend list of user <%= @user_name.name %> are</p>
+<% @friends.each do |friend| %>
+<%= friend.name %>
+<% end %>
